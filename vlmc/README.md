@@ -3,7 +3,7 @@
 
 
 
-![screenshot](http://images.videolan.org/vlmc/screenshots/snapshot2.jpg)
-![screenshot1](http://images.videolan.org/vlmc/screenshots/snapshot10.jpg)
-![screenshot2](http://images.videolan.org/vlmc/screenshots/snapshot12.jpg)
-![screenshot3](http://images.videolan.org/vlmc/screenshots/snapshot14.jpg)
+![screenshot](snapshot2.jpg)
+![screenshot1](snapshot10.jpg)
+![screenshot2](snapshot12.jpg)
+![screenshot3](snapshot14.jpg)
