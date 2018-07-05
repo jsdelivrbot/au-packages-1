@@ -18,32 +18,32 @@ environment:
   au_test_groups: 1
 
   # Github token to commit pushed packages to repository
-  github_user_repo: majkinetor/au-packages
+  github_user_repo: netravnen/au-packages
   github_api_key:
-    secure: 5/3TZtHT4M8984tJhsFyLST+e/JDpc8ia871UD4hv3dD2+Kb+xnaB4wMH1WloDD1
+    secure: Eb74Mv/By84CTc8c5ATuNwEF8seiY4wS5qnIEcnIv6ExKqW6bDzA/HtjwQPZNg5p
 
-  github_username: majkinetor
+  github_username: netravnen
   github_password:
-    secure: MLLwE43J/DaZdfFcWWugSw==
+    secure: x7H0jD/XCWMeSpP6nSY79qi0ByupaGy5/Vf6ZQqtdP0=
 
   # Mail credentials - for error notifications
-  mail_user: majkinetor@gmail.com
+  mail_user: netravnen@gmail.com
   mail_pass:
-    secure: h/+9+co89yapWdXBYYXJvPQQvViVRRq1zd2Us0aTSjY=
+    secure: Y/QOkjZEdJ4eBDrRVVY2qyiX8LKwqF6IWzxyloytfi4=
   mail_server: smtp.gmail.com
   mail_port: 587
   mail_enablessl: true
 
   # ID of the gist used to save run results - create a gist under the github_user (secret or not) and grab the id - https://gist.github.com/name/id
   # Optional, leave empty to create anonymous gist
-  gist_id: a700c70b8847b29ebb1c918d47ee4eb1
+  gist_id: c4181d0a527c62f423c9366fed0c9f80
 
   # Force test: gist id for test results
-  gist_id_test: 55bab243f1b5d53746b5607e8d26eea0
+  gist_id_test: 49d9c9bc473b4dc6d36675415cf6dcda
 
   # Chocolatey API key - to push updated packages
   api_key:
-    secure: Zaby8iZHam4NMZ4AAjH/ZM19D+soKoohnHnRAcusk/HvNkEPMA8Wd3jxUGPnQgPJ
+    secure: hoPbyDcUCc7OyYCS5cmsTukBEWoiRpnzad/NSGF/lGynDWpYBHDhAcOa8cUfA4Fc
 
 init:
 - git config --global user.email "chocolatey@realdimensions.net"
