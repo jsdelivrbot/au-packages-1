@@ -8,7 +8,7 @@ $packageArgs = @{
   url                    = 'http://ftp.videolan.org/pub/testing/vlmc/vlmc-0.2.0-win32.exe'
   checksum               = '63599EBA59D3A5A97904C39286C22C2C3B9FDF343B149B79C2A840F51D4DB5F0'
   checksumType           = 'sha256'
-  silentArgs             = '/VERYSILENT'
+  silentArgs             = '/S'
   validExitCodes         = @(0)
   softwareName           = 'vlmc*'
 }
